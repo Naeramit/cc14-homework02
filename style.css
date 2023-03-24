@@ -1,0 +1,88 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+.backgroud{
+    display: flex;
+    justify-content: center;
+    background: #f0f2f5;
+    align-items: flex-start;
+    height: 78vh;
+
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding: 72px 0px 112px ;
+    background: #f0f2f5;
+    min-width: 500px;
+    max-width: 900px;
+}
+.header{
+    padding: 0px 32px 0px 0px;
+    flex-basis: 50%;
+}
+.logo{
+    padding: 112px 0px 16px;
+}
+.descript_logo{
+    padding: 0px 0px 20px;
+}
+.box{
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 32px 0 0;
+    padding: 16px 0 16px;
+    width: 396px;
+}
+.box *{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    padding: 6px 16px;
+    border-radius: 5px;
+    box-shadow:none;
+}
+.log_in_botton > input{
+    background-color: #1877f2;
+    border: none;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+
+}
+.create_new > input{
+    background-color: #42b72a;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+.email_box >input , .passward_box >input {
+    color: #1d2129;
+    border: 1px solid #dddfe2;
+    padding: 18px 16px;
+}
+.forget_passward > a{
+    border-bottom: 1px solid #dddfe2;
+}
+.tail_box{
+    text-align: center;
+    padding: 12px 0px;
+}
+
+@media (max-width: 784px){
+    .main{
+        padding: 0px 0px 112px ;
+    }
+    .logo{
+        padding: 50px 0px 16px;
+    }
+
+}
