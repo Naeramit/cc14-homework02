@@ -79,13 +79,32 @@
     text-align: center;
     padding: 12px 0px;
 }
+.tail_page{
+    display: flex;
+    justify-content: center;
+}
+.lang{
+    width: 80vw;
+}
+.lang > a{
+    text-decoration: none;
+    color: #86888b;
+    font-size: 15px;
+    margin-right: 0.5em;
+}
 
-@media (max-width: 784px){
+@media (max-width: 895px){
     .main{
         padding: 0px 0px 112px ;
     }
     .logo{
-        padding: 50px 0px 16px;
+        padding: 0px;
+    }
+    .box{
+        margin-top: 0px;
+    }
+    .descript_logo{
+        padding-bottom: 0px;
     }
 
 }
